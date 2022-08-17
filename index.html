@@ -17,20 +17,32 @@
 
     <style>
       .navbar-blur {
-        background-color: #979ab2;
-        opacity: 0.8;
+        background-color: #131325;
+        /* opacity: 0.8; */
         backdrop-filter: blur(5px);
         box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
       }
 
+      .background-social-media {
+        padding: 5px;
+        border-radius: 50%;
+        background-color: white;
+      }
+
+      .background-social-media i {
+        width: 1.5rem;
+        height: 1.5rem;
+        text-align: center;
+      }
+
       .bg-custom {
-        background-color: #e2edff;
+        background-color: #335cbe;
       }
     </style>
   </head>
   <body style="font-family: 'Poppins', sans-serif">
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-primary bg-custom" id="navbar" style="transition: top 0.3s">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom" id="navbar" style="transition: top 0.3s">
       <div class="container">
         <a class="navbar-brand" href="#home">
           <p style="font-family: 'Dancing Script', cursive; font-size: 32px; margin-bottom: 0">alifiandyn</p>
@@ -54,32 +66,32 @@
     <!-- End Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron" id="home" style="background-color: #e2edff; padding-top: 7rem">
+    <section class="jumbotron" id="home" style="background-color: #335cbe; padding-top: 7rem">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-8 col-md-12 col-sm-12">
             <div class="row justify-content-between">
               <div class="col-md-8 align-self-center pb-3 pb-md-0" data-aos="fade-right" data-aos-delay="700">
-                <p class="fw-normal fst-italic my-0 mx-5 mx-md-0" style="font-size: 1.5rem">Hii, i'm</p>
-                <p class="fs-bold m-0 text-center text-md-start" style="font-size: 3rem"><b>Alifiandy Nugraha</b></p>
-                <p class="fw-normal fst-italic m-0 text-center text-md-start" style="font-size: 1.5rem">Network Engineer | Full-Stack Web Developer</p>
+                <p class="text-white fw-normal fst-italic my-0 mx-5 mx-md-0" style="font-size: 1.5rem">Hii, i'm</p>
+                <p class="text-white fs-bold m-0 text-center text-md-start" style="font-size: 3rem">Alifiandy Nugraha</p>
+                <p class="text-white fw-normal fst-italic m-0 text-center text-md-start" style="font-size: 1.5rem">Network Engineer & Full-Stack Web Developer</p>
                 <div class="row py-3 justify-content-evenly justify-content-md-start">
                   <div class="col-1 text-start">
-                    <a style="color: #3b5998" href="https://www.facebook.com/alifiandy.nugraha.9" role="button"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a class="background-social-media" style="color: #3b5998" href="https://www.facebook.com/alifiandy.nugraha.9" role="button"><i class="fa-brands fa-facebook fa-lg"></i></a>
                   </div>
                   <div class="col-1 text-start">
-                    <a style="color: #0f0e0e" href="https://github.com/alifiandyn" role="button"><i class="fa-brands fa-github fa-lg"></i></a>
+                    <a class="background-social-media" style="color: #0f0e0e" href="https://github.com/alifiandyn" role="button"><i class="fa-brands fa-github fa-lg"></i></a>
                   </div>
                   <div class="col-1 text-start">
-                    <a style="color: #007bb5" href="https://www.linkedin.com/feed/" role="button"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a class="background-social-media" style="color: #007bb5" href="https://www.linkedin.com/feed/" role="button"><i class="fa-brands fa-linkedin fa-lg"></i></a>
                   </div>
                   <div class="col-1 text-start">
-                    <a style="color: #125688" href="https://www.instagram.com/alifiandyn/" role="button"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a class="background-social-media" style="color: #125688" href="https://www.instagram.com/alifiandyn/" role="button"><i class="fa-brands fa-instagram fa-lg"></i></a>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 align-self-center text-center order-first order-md-last" data-aos="fade-left" data-aos-delay="700">
-                <img class="img-thumbnail rounded-circle" width="300" src="foto-navbar.jpg" alt="" />
+                <img class="img-thumbnail rounded-circle m-5 m-sm-0" width="300" src="foto-navbar.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -100,11 +112,11 @@
       <div class="container" data-aos="fade-down" data-aos-offset="400">
         <div class="row text-center mb-3">
           <div class="col">
-            <h1>About Me</h1>
+            <h1 style="font-weight: 700">About Me</h1>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-8">
+          <div class="col-10 col-md-8">
             <p>
               Menimbang bahwa pengakuan atas martabat alamiah dan hak-hak yang sama dan mutlak dari semua anggota keluarga manusia adalah dasar kemerdekaan, keadilan dan perdamaian di dunia, Menimbang bahwa mengabaikan dan memandang rendah hak-hak
               asasi manusia telah mengakibatkan perbuatan-perbuatan bengis yang menimbulkan rasa kemarahan hati nurani umat manusia, dan terbentuknya suatu dunia tempat manusia akan mengecap kenikmatan kebebasan berbicara dan beragama serta kebebasan
@@ -115,7 +127,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
         <path
-          fill="#e2edff"
+          fill="#335cbe"
           fill-opacity="1"
           d="M0,192L60,160C120,128,240,64,360,58.7C480,53,600,107,720,133.3C840,160,960,160,1080,160C1200,160,1320,160,1380,160L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
@@ -124,11 +136,11 @@
     <!-- End About -->
 
     <!-- Certified -->
-    <section class="certified" id="certified" style="background-color: #e2edff">
+    <section class="certified" id="certified" style="background-color: #335cbe">
       <div class="container" data-aos="zoom-in" data-aos-offset="400">
         <div class="row text-center mb-3">
           <div class="col">
-            <h1>Certified</h1>
+            <h1 class="fs-bold text-white">Certified</h1>
           </div>
         </div>
         <div class="row justify-content-evenly">
@@ -179,11 +191,11 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h1>Contact</h1>
+            <h1 style="font-weight: 700">Contact</h1>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-6">
+          <div class="col-10 col-sm-8 col-md-6">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -207,8 +219,8 @@
     <!-- End Contact -->
 
     <!-- Footer -->
-    <footer class="text-center p-5" style="background-color: #979ab2">
-      <p class="mb-0">Copyright &copy;2022 alifiandyn.com | Create by <a href="" class="text-white fw-bold">Alifiandy Nugraha</a></p>
+    <footer class="text-center p-5" style="background-color: #131325">
+      <p class="mb-0" style="color: #e2edff">Copyright &copy;2022 alifiandyn.com | Create by <a href="" class="text-white fw-bold">Alifiandy Nugraha</a></p>
     </footer>
     <!-- End Footer -->
 
