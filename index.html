@@ -254,6 +254,7 @@
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function () {
         const navbar = document.querySelector("nav");
+        const navbarHeight = "-" + navbar.clientHeight + "px";
         const fixNav = navbar.offsetTop;
         const currentScrollPos = window.pageYOffset;
         if (currentScrollPos == 0) {
@@ -266,7 +267,7 @@
             document.getElementById("navbar").classList.remove("bg-shade-blue");
             document.getElementById("navbar").classList.add("navbar-scroll");
           } else {
-            document.getElementById("navbar").style.top = "-72px";
+            document.getElementById("navbar").style.top = navbarHeight;
             document.getElementById("navbar").classList.remove("navbar-scroll");
             document.getElementById("navbar").classList.add("bg-shade-blue");
           }
