@@ -15,37 +15,14 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
 
-    <style>
-      .navbar-blur {
-        background-color: #131325;
-        /* opacity: 0.8; */
-        backdrop-filter: blur(5px);
-        box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
-      }
-
-      .background-social-media {
-        padding: 5px;
-        border-radius: 50%;
-        background-color: white;
-      }
-
-      .background-social-media i {
-        width: 1.5rem;
-        height: 1.5rem;
-        text-align: center;
-      }
-
-      .bg-custom {
-        background-color: #335cbe;
-      }
-    </style>
+    <link rel="stylesheet" href="css/custom-style.css" />
   </head>
-  <body style="font-family: 'Poppins', sans-serif">
+  <body>
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom" id="navbar" style="transition: top 0.3s">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-shade-blue" id="navbar" style="transition: top 0.3s">
       <div class="container">
         <a class="navbar-brand" href="#home">
-          <p style="font-family: 'Dancing Script', cursive; font-size: 32px; margin-bottom: 0">alifiandyn</p>
+          <p class="navbar-title">alifiandyn</p>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -66,27 +43,27 @@
     <!-- End Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron" id="home" style="background-color: #335cbe; padding-top: 7rem">
+    <section class="jumbotron bg-shade-blue" id="home">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-8 col-md-12 col-sm-12">
             <div class="row justify-content-between">
               <div class="col-md-8 align-self-center pb-3 pb-md-0" data-aos="fade-right" data-aos-delay="700">
                 <p class="text-white fw-normal fst-italic my-0 mx-5 mx-md-0" style="font-size: 1.5rem">Hii, i'm</p>
-                <p class="text-white fs-bold m-0 text-center text-md-start" style="font-size: 3rem">Alifiandy Nugraha</p>
+                <p class="text-white fs-bold m-0 text-center text-md-start display-5">Alifiandy Nugraha</p>
                 <p class="text-white fw-normal fst-italic m-0 text-center text-md-start" style="font-size: 1.5rem">Network Engineer & Full-Stack Web Developer</p>
                 <div class="row py-3 justify-content-evenly justify-content-md-start">
                   <div class="col-1 text-start">
-                    <a class="background-social-media" style="color: #3b5998" href="https://www.facebook.com/alifiandy.nugraha.9" role="button"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a class="bg-social-media" style="color: #3b5998" href="https://www.facebook.com/alifiandy.nugraha.9" role="button"><i class="fa-brands fa-facebook fa-lg"></i></a>
                   </div>
                   <div class="col-1 text-start">
-                    <a class="background-social-media" style="color: #0f0e0e" href="https://github.com/alifiandyn" role="button"><i class="fa-brands fa-github fa-lg"></i></a>
+                    <a class="bg-social-media" style="color: #0f0e0e" href="https://github.com/alifiandyn" role="button"><i class="fa-brands fa-github fa-lg"></i></a>
                   </div>
                   <div class="col-1 text-start">
-                    <a class="background-social-media" style="color: #007bb5" href="https://www.linkedin.com/feed/" role="button"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a class="bg-social-media" style="color: #007bb5" href="https://www.linkedin.com/feed/" role="button"><i class="fa-brands fa-linkedin fa-lg"></i></a>
                   </div>
                   <div class="col-1 text-start">
-                    <a class="background-social-media" style="color: #125688" href="https://www.instagram.com/alifiandyn/" role="button"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a class="bg-social-media" style="color: #125688" href="https://www.instagram.com/alifiandyn/" role="button"><i class="fa-brands fa-instagram fa-lg"></i></a>
                   </div>
                 </div>
               </div>
@@ -112,7 +89,7 @@
       <div class="container" data-aos="fade-down" data-aos-offset="400">
         <div class="row text-center mb-3">
           <div class="col">
-            <h1 style="font-weight: 700">About Me</h1>
+            <h1 class="fw-bold">About Me</h1>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
@@ -136,7 +113,7 @@
     <!-- End About -->
 
     <!-- Certified -->
-    <section class="certified" id="certified" style="background-color: #335cbe">
+    <section class="certified bg-shade-blue" id="certified">
       <div class="container" data-aos="zoom-in" data-aos-offset="400">
         <div class="row text-center mb-3">
           <div class="col">
@@ -145,8 +122,8 @@
         </div>
         <div class="row justify-content-evenly">
           <div class="col-lg-3 col-md-4 col-sm-6 col-10 py-2 py-md-0">
-            <div class="card" style="width: 100%">
-              <img src="https://www.course-net.com/wp-content/uploads/2018/09/ccna-1-1.jpg" class="card-img-top" alt="..." style="aspect-ratio: 16/9; object-fit: cover" />
+            <div class="card">
+              <img src="https://www.course-net.com/wp-content/uploads/2018/09/ccna-1-1.jpg" class="card-img-top fix-ratio" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">CCNAv7: Introduction to Networks</h5>
                 <p class="card-text">Cisco Network Academy</p>
@@ -155,8 +132,8 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-10 py-2 py-md-0">
-            <div class="card" style="width: 100%">
-              <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Biaya_bootcamp_binar_academy_6.original.png" class="card-img-top" alt="..." style="aspect-ratio: 16/9; object-fit: cover" />
+            <div class="card">
+              <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Biaya_bootcamp_binar_academy_6.original.png" class="card-img-top fix-ratio" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Bootcamp Full-Stack Web Developer</h5>
                 <p class="card-text">Binar Academy</p>
@@ -165,8 +142,8 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-10 py-2 py-md-0">
-            <div class="card" style="width: 100%">
-              <img src="https://www.macksofytrainings.com/wp-content/uploads/2021/09/ec-council-cscu-certification-1200x600.jpg" class="card-img-top" alt="..." style="aspect-ratio: 16/9; object-fit: cover" />
+            <div class="card">
+              <img src="https://www.macksofytrainings.com/wp-content/uploads/2021/09/ec-council-cscu-certification-1200x600.jpg" class="card-img-top fix-ratio" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Certified Secure Computer User (CSCU)</h5>
                 <p class="card-text">EC-Council</p>
@@ -191,7 +168,7 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h1 style="font-weight: 700">Contact</h1>
+            <h1 class="fw-bold">Contact</h1>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -219,7 +196,7 @@
     <!-- End Contact -->
 
     <!-- Footer -->
-    <footer class="text-center p-5" style="background-color: #131325">
+    <footer class="text-center p-5 bg-blue-magenta">
       <p class="mb-0" style="color: #e2edff">Copyright &copy;2022 alifiandyn.com | Create by <a href="" class="text-white fw-bold">Alifiandy Nugraha</a></p>
     </footer>
     <!-- End Footer -->
@@ -238,17 +215,17 @@
         const currentScrollPos = window.pageYOffset;
         if (currentScrollPos == 0) {
           document.getElementById("navbar").style.top = "0";
-          document.getElementById("navbar").classList.remove("navbar-blur");
-          document.getElementById("navbar").classList.add("bg-custom");
+          document.getElementById("navbar").classList.remove("navbar-scroll");
+          document.getElementById("navbar").classList.add("bg-shade-blue");
         } else {
           if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbar").style.top = "0";
-            document.getElementById("navbar").classList.remove("bg-custom");
-            document.getElementById("navbar").classList.add("navbar-blur");
+            document.getElementById("navbar").classList.remove("bg-shade-blue");
+            document.getElementById("navbar").classList.add("navbar-scroll");
           } else {
             document.getElementById("navbar").style.top = "-72px";
-            document.getElementById("navbar").classList.remove("navbar-blur");
-            document.getElementById("navbar").classList.add("bg-custom");
+            document.getElementById("navbar").classList.remove("navbar-scroll");
+            document.getElementById("navbar").classList.add("bg-shade-blue");
           }
         }
         prevScrollpos = currentScrollPos;
