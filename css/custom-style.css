@@ -27,17 +27,66 @@ body {
   background-color: #131325;
 }
 
-.bg-social-media {
-  padding: 5px;
-  border-radius: 50%;
-  background-color: white;
+/* For list social media on Section Jumbotron */
+.list-social-media {
+  column-gap: 20px;
 }
 
-.bg-social-media i {
-  width: 1.5rem;
-  height: 1.5rem;
-  text-align: center;
+.bg-social-media {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  color: white;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 0.25s;
 }
+
+.bg-social-media:hover {
+  outline-offset: 4px;
+}
+
+.bg-social-media i:hover {
+  animation: shake 0.5s;
+}
+
+.icon-instagram:hover {
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  outline-color: #a82d76;
+}
+.icon-linkedin:hover {
+  background-color: white;
+  outline-color: white;
+}
+.icon-facebook:hover {
+  background-color: white;
+  outline-color: white;
+}
+.icon-github:hover {
+  background-color: #00ffae;
+  outline-color: #00ffae;
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  30% {
+    transform: rotate(-15deg);
+  }
+  40% {
+    transform: rotate(15deg);
+  }
+}
+/* For list social media on Section Jumbotron */
 
 .card {
   width: 100%;
